@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+main{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main .box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+main .box img{
+    width: 100%;
+}
+main .box h6, a
+{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 0.1em;
+}
+.top-left-span
+{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    padding: 5px 13px;
+    z-index: 100;
+}
+#scarlet-sage{
+    position: relative;
+}
+.sale{
+    color: #2b2b2b;
+    background: #ffffff;
+}
+
+#sweet-alyssum{
+    position: relative;
+}
+.sold{
+    color: #ffffff;
+    background: #2b2b2b;
+}
+.box-text{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-bottom{
+    display: flex;
+    margin-top: 4px;
+    font-size: 12px;
+    color: #afafaf;
+}
+.old-price{
+    text-decoration: line-through;
+}
+.discounted-price{
+    color: #2d2b2b;
+    margin-left: 8px;
+}
+.box img{
+    transition: .1s;
+}
+.box:hover a img{
+    transform: scale(1.05);
+}
